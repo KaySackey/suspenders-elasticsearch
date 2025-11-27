@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "suspenders"
+version = "0.1.0-alpha"
+description = "A Django-friendly Python library for querying Elasticsearch and returning actual model instances."
+authors = [
+    {name = "Kay Sackey", email = "kay@9cloud.us"},
+]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "django>=3.2",
+    "elasticsearch>=7.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/kaysackey/suspenders-elasticsearch"
